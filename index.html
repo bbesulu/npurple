@@ -156,5 +156,25 @@
     </form>
 
 </section>
+
+    /* Telefonlar ve tabletler için mobil uyumlu düzen */
+@media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: 1fr !important; /* Ürünleri yan yana değil, alt alta diz */
+    }
+
+    .product-item {
+        width: 100% !important; /* Kartları ekranın tamamına yay */
+        margin: 10px auto;
+    }
+
+    .product-image-container {
+        max-width: 100% !important; /* Görseli ekran genişliğine göre ayarla */
+    }
+
+    header {
+        padding: 10px !important;
+    }
+}
     </body>
 </html>
